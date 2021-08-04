@@ -1,0 +1,84 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+html,body{
+    font-family: "微軟正黑體";
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width:70%;
+    display: grid;
+    
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 200px 200px;
+    grid-column-gap: 70px;
+    grid-row-gap:100px;
+}
+.box{
+    border: 1px solid#000;
+    cursor: pointer;
+    background-image: url(img/期刊.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+
+.box:hover .filter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+@media screen and (max-width:800px){
+    html,body{
+        align-items: flex-start;
+    }
+    .container{
+        grid-template-columns: repeat(2,1fr);
+        margin: 50px 0;
+    }
+}
+
+@media screen and (max-width:600px){
+    .container{
+        grid-template-columns: 1fr;
+    }
+}
+.table-wrapper{
+    width: 23%;
+    top: 68%;
+    position: absolute;
+    right: 1%;
+    left: auto;
+}
+.container-2{
+    width:75%;
+    display: grid;
+    position: relative;
+    left: 13%;
+    right: autos;;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 200px 200px;
+    grid-column-gap: 100px;
+    grid-row-gap: 100px;
+
+}
+.container-3{
+    width:75%;
+    display: grid;
+    position: relative;
+    left: 10%;
+    right: autos;;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 200px;
+    grid-column-gap: 100px;
+    grid-row-gap: 100px;
+
+}

@@ -1,0 +1,194 @@
+<!DOCTYPE HTML>
+<!--
+	Spectral by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>文章分配</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+        
+        
+	</head>
+	<body class="is-preload">
+
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<h1><a href="../管理者首頁.html">FJU</a></h1>
+						<nav id="nav">
+							<ul>
+								<li class="special" style="font-family: 微軟正黑體;">
+									<a href="#menu" class="menuToggle" style="font-weight: bold;"><span>清單 Menu</span></a>
+									<div id="menu">
+										<ul style="font-family: 微軟正黑體;">
+                                            <li><a href="../管理者首頁.html">首頁 / <br><span style="color: #CEE8E2;">Home</span></a></li>
+                                            <li><a href="../帳號管理.html">帳號權限管理 / <br><span style="color: #CEE8E2;">Authority Management</span></a></li>    <!--設定帳號權限-->
+                                            <li><a href="../線上投稿管理.html">線上投稿管理 / <br><span style="color: #CEE8E2;">Online Contributions Management</span></a></li>     <!--聯絡投稿者 審稿者 問題信件-->
+                                            <li><a href="../帳戶申請.html">帳戶申請 / <br><span style="color: #CEE8E2;">Account Application</span></a></li> 
+											<li><a href="../使用者身分登入.html"><!--連接最外面那頁簡做的-->登出 / <br><span style="color: #CEE8E2;">Sign out</span></a></li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+						</nav>
+					</header>
+
+				<!-- Main -->
+					<article id="main" style="font-family:Microsoft JhengHei;">
+						<header>
+							<p style="font-size:40px; font-weight: 1000;">文章分配</p>
+						</header>
+						<section class="wrapper style5">
+							<div class="inner">
+								<section>
+									<p style="font-size:35px; font-weight: 1000;">文章內容</p>
+									<div class="table-wrapper">
+										<table class="alt">
+												<tr>
+													<td align="center" style="vertical-align: middle;font-weight: bold;">稿件名稱</td>
+                                                        <td align="center" style="vertical-align: middle" >
+                                                            金融產品創新及其定價：移動平均交換選擇權
+                                                        </td>
+													 
+													
+												</tr>
+												<tr>
+													<td align="center" style="vertical-align: middle;font-weight: bold;">
+                                                     作者
+                                                    </td>
+                                                    <td align="center" style="vertical-align: middle" >
+                                                      韓千山&nbsp;&nbsp;輔仁大學金融與國際企業學系副教授<br/>
+                                                      邱嘉洲&nbsp;&nbsp;輔仁大學金融與國際企業學系助理教授(通訊作者)<br/>
+                                                      蔡鎮宇&nbsp;&nbsp;新北市政府採購處技士<br/>
+                                                      簡榮治&nbsp;&nbsp;國泰世華銀行私人銀行事業處私人銀行部客戶服務經理<br/>     
+                                                    </td>
+													
+												</tr>
+												<tr>
+													<td align="center" style="vertical-align: middle;font-weight: bold;" >摘要</td>
+                                                    <td align="left" style="vertical-align: middle" >本文探討金融產品創新及其定價，討論移動平均交換選擇權。本文主要是延伸 Margrabe (1978) 歐式交換選擇權，將其報償-二項資產價格正差距，延伸為以算術或幾何計算二項資產價格移動平均正差距。一般選擇權分為歐式與美式。美式選擇權價值相當於歐式選擇權價值加上提前履約溢酬 (early exercise premium)。尤有甚者，美式選擇權不會提前履約情況發生時，則歐式選擇權等價於美式選擇權。因此，本文提供歐式選擇權的觀點，有助於探討該選擇權特性。<br/>
+另外，以股票資產為例，股票移動平均價格視為交易實務上股票陸續出售或分開時段變現時投資組合之平均價值，亦或股票陸續買進或分開時段佈局時投資組合之平均建構成本。而且，在股票價差交易 (spread trade) 的交易實務上，移動平均交換選擇權亦提供良好的避險工具。<br/>
+最後，本文提供數值積分法與 (解析) 封閉解法等評價歐式算術、幾何移動平均交換選擇權，運用蒙地卡羅法佐證其精確性，並且提供風險衡量，例如，Delta, Gamma 等，運用於該選擇權之風險管理及其投資組合避險等工作。</td>
+												</tr>
+										</table>
+									</div>
+								</section>
+                                <section>
+								<br>
+								<p style="font-size:35px; font-weight: 1000;">審稿者分配(選擇兩位審稿者)</p>
+                                  <form>
+									<div class="table-wrapper">
+										<table class="alt">
+                                              <tr>
+                                                  <td align="center" style="vertical-align: middle;font-weight: bold;" colspan="2">審稿者</td>
+                                              </tr>
+												<tr>
+													<td align="center" style="vertical-align: middle;font-weight: bold;">專業領域選取    </td>
+                                                        <td align="center" style="vertical-align: middle">
+                                                            <select id="college-list" onchange="changeCollege(this.selectedIndex)" style="font-family: 微軟正黑體;"></select>
+                                                        </td>
+												</tr>
+												<tr>
+                                                   <td align="center" style="vertical-align: middle;font-weight: bold;">
+                                                       審稿者選取
+                                                    </td> 
+                                                   <td>
+                                                      	<select id="sector-list" style="font-family: 微軟正黑體;"></select> 
+                                                    </td>
+												</tr>
+                                                <tr>
+                                                    <td align="center" style="vertical-align: middle;font-weight: bold;">
+                                                        審稿者信箱
+                                                    </td>
+                                                    <td align="center" style="vertical-align: middle">
+                                                        <input type="email" name="demo-email" id="demo-email" value="" placeholder="電子信箱"style="font-family: 微軟正黑體;" />
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan="2" align="center" style="vertical-align: middle">
+                                                       <textarea name="demo-message" id="demo-message" placeholder="傳送訊息給稿者" rows="6" style="font-family: 微軟正黑體;"></textarea> 
+                                                    </td>
+                                                </tr>
+                                                 <tr>
+                                                    <td align="center" style="vertical-align: middle;" colspan="2"><input type="submit" value="傳送" class="primary"style="font-family: 微軟正黑體;" /></td>
+                                                </tr>
+                                            <script type="text/javascript">
+			var colleges=['管理與政策','國際企業','行銷管理','國際貿易','生產與作業管理','統計','人力資源管理','數量方法','資訊管理','會計','財務管理','審計'];
+			var collegeSelect=document.getElementById("college-list");
+			var inner="";
+			for(var i=0;i<colleges.length;i++){
+				inner=inner+'<option value=i>'+colleges[i]+'</option>';
+			}
+			collegeSelect.innerHTML=inner;
+			
+			
+			var sectors=new Array();
+			sectors[0]=['陳之漢(輔大大學企業管理教授)','連千亦(東吳大學資訊管理教授)','簡筠庭(輔大大學資訊管理教授)'];
+			sectors[1]=['王謙和(輔仁大學金融與國際企業副教授)','林鄭','鄭麗雲'];	
+			sectors[2]=['邱玉鳳','簡映琪','林辰'];	
+			sectors[3]=['余美雪','郭家銘','陳建達'];
+			sectors[4]=['王艷星','李淑萍','王佑謙']
+			sectors[5]=['陳美麗','陳淑雲','李啟和'];
+			sectors[6]=['復鄉雲','沈平','陳旺'];
+			sectors[7]=['林力陳','簡辰羽','許淵誠'];
+			sectors[8]=['許莫','周琪洛','李總'];
+			sectors[9]=['許墨','李澤言','白起'];
+			sectors[10]=['凌肖','林蕭','蕭一'];
+			sectors[11]=['林梓萱','林如萍','王淑君'];
+            sectors[12]=['吳祿勇','甘禮良','連雅玲'];
+			function changeCollege(index){
+				var Sinner="";
+				for(var i=0;i<sectors[index].length;i++){
+					Sinner=Sinner+'<option value=i>'+sectors[index][i]+'</option>';
+				}
+				var sectorSelect=document.getElementById("sector-list");
+				sectorSelect.innerHTML=Sinner;
+			}
+			changeCollege(document.getElementById("college-list").selectedIndex);
+		</script>
+										</table>
+                                       
+									</div>
+                                    </form>
+								</section>
+                                
+							</div>
+						</section>
+					</article>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<ul class="copyright">
+							<p style="font-size: 15px;font-family: 微軟正黑體;">-輔仁大學管理學院 投稿系統-</p>
+							<p style="font-family: 微軟正黑體;">TEL: 02-2905-2000&nbsp;&nbsp;FAX: 02-2905-2186&nbsp;&nbsp;&nbsp;242 新北市新莊區中正路510號</p>
+						</ul>
+						<ul class="icons">
+							<li><a href="https://www.facebook.com/management.fju.edu.tw" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+							<li><a href="https://www.instagram.com/fjcuma1969/" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+							<li><a href="http://line.me/ti/p/%40hav4242d" class="icon brands fab fa-line"><span class="label">Line</span></a></li>
+							<li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+							
+						</ul>
+						
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
